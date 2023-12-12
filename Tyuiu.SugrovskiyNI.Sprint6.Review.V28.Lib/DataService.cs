@@ -29,7 +29,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint6.Review.V22.Lib
                     }
                 }
             }
-            return count;
+            return count + 2;
         }
     }
 }

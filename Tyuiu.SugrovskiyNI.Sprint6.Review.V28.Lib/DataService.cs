@@ -19,17 +19,14 @@ namespace Tyuiu.SugrovskiyNI.Sprint6.Review.V22.Lib
             }
 
             int count = 0;
-            for (int j = 0; j < cols; j++)
+            for (int j = k + 1; j < l; j++)
             {
-                if (j < k || j > l || j == k)
+                if (array[c, j] > 0)
                 {
-                    if (array[c, j] > 0)
-                    {
-                        count++;
-                    }
+                    count++;
                 }
             }
-            return count + 2;
+            return count;
         }
     }
 }
